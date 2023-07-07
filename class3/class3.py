@@ -18,6 +18,6 @@ print('開始輸入')
 input()
 print('輸入結束')
 input('輸入資料')
-a = input
+a = input()
 print(a)
-print(input)
+print(input())
