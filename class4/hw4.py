@@ -24,4 +24,4 @@ h = input("請輸入身高(公尺):")
 h = float(h)
 w = float(w)
 bmi = w / h**2
-print("你的BMI為" + bmi)
+print("你的BMI為" + str(bmi))
