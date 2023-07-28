@@ -7,6 +7,5 @@ python與同學年齡加起來16歲
 同學 = 8
 python = input("請輸入python年齡")
 python = int(python)
-同學 = int(同學)
 兩者年齡 = 同學 + python
 print("python與同學年齡加起來%d歲" % (兩者年齡))
