@@ -26,9 +26,9 @@ h = float(h)
 w = float(w)
 bmi = w / h**2
 print("你的BMI為" + str(bmi))
-if bmi>=20.7
+if bmi >= 20.7:
     print('你太胖了!')
-elif bmi <=14.8
+elif bmi <= 14.8:
     print('你太瘦了!')
 else:
     print("你非常健康")
