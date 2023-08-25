@@ -10,10 +10,10 @@ ex:
 12
 ....
 '''
-# turtle.forward(150)
-#  turtle.left(60)
-# for i in range(3, 100, 3):
-#     print(i)
+ turtle.forward(150)
+  turtle.left(60)
+ for i in range(3, 100, 3):
+     print(i)
 import turtle
 for i in range(0, 6):
     print(i)
