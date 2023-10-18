@@ -16,15 +16,40 @@
 # 再大一點
 # 請輸入23~25的整數:24
 # 恭喜猜中!
-import random as r
+# import random as r
 
-A = r.randrange(0, 101)
-S = -1
-S = int(input("輸入1到100的整數:"))
-while S != A:
-    if S > A:
+# A = r.randrange(0, 101)
+# S = -1
+# S = int(input("輸入1到100的整數:"))
+# while S != A:
+#     if S > A:
+#         print("再小一點")
+#     elif S < A:
+#         print("再大一點")
+#     S = int(input("輸入1到" + str(S) + "的整數:"))
+# print("算你幸運")
+import random
+
+a = random.randint(1, 100)
+s = 1
+d = 100
+while True:
+    z = str(s)
+    x = str(d)
+    i = int(input("請輸入" + z + "~" + x + "的數:"))
+    if i == a:
+        print("恭喜猜中")
+        break
+    elif i > a:
         print("再小一點")
-    elif S < A:
+        if i > d:
+            continue
+        elif i < d:
+            d = i
+        continue
+    elif i < a:
         print("再大一點")
-    S = int(input("輸入1到" + str(S) + "的整數:"))
-print("算你幸運")
+        if i < s:
+            continue
+        elif i > s:
+            s = i
