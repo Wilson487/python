@@ -57,3 +57,19 @@ while True:
             print("OK")
         else:
             print("你在無中生有")
+    elif A == "7":
+        A_list.sort()
+        print("OK")
+    elif A == "8":
+        A_list.sort(reverse=True)
+        print("OK")
+    elif A == "9":
+        A_list.reverse()
+        print("OK")
+    elif A == "10":
+        B=input("輸入你要查的餐點順序")
+        if A in A_list:
+            II=A_list.index(A)
+            print("餐點"+A+"順序是"+str(II))
+        else:
+            print("你在無中生有")
