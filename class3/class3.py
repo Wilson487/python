@@ -21,3 +21,6 @@ input('輸入資料')
 a = input()
 print(a)
 print(input())
+
+
+
